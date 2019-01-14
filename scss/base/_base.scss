@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+body, html {
+  min-height: 100%;
+}
+
+body {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  font-family: Lato, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.active {
+  opacity: 1;
+
+  &:after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+  }
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}

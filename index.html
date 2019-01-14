@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Game UI Tabs</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="popup  container">
+    <div class="popup__top">
+        <a href="#info" class="popup__item">
+            <img src="img/tooltip.png" alt="information">
+            <h3>Information</h3>
+        </a>
+        <a href="#rating" class="popup__item">
+            <img src="img/card.png" alt="rating info">
+            <h3>Rating Info</h3>
+        </a>
+        <a href="#buy" class="popup__item">
+            <img src="img/basket.png" alt="where to buy">
+            <h3>Where to buy</h3>
+        </a>
+    </div>
+    <div class="popup__main">
+        <div class="popup__page show" id="info">
+            <div class="popup__left">
+                <img src="img/img-game.png" alt="">
+            </div>
+            <div class="popup__right">
+                <h1 class="popup__title">FarCry 4</h1>
+                <p class="popup__subtitle">First Released Nov 17, 2014</p>
+                <p class="popup__text">In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous and wild region of the Hima
+                    layas struggling under the regime of a despotic self-appointed king.</p>
+                <div class="circle" id="circle">
+                    <span>7.8</span>
+                </div>
+            </div>
+            <div class="popup__wrapper">
+                <div class="popup__rating">
+                    <select id="star">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="popup__price">
+                    <p class="sale">20% off!</p>
+                    <p class="price">$59.96</p>
+                </div>
+                <div class="popup__buy">
+                    <a href="#" class="button">Buy it now</a>
+                </div>
+            </div>
+        </div>
+        <div class="popup__page hide" id="rating">
+            <ol>
+                <li>Parents need to know that Far Cry 4 is a first-person shooter<br> set in a fictional Asian country.</li>
+                <li>There's intense violence, blood, and gore, as well as disturbing<br> torture and execution scenes.</li>
+            </ol>
+
+        </div>
+        <div class="popup__page hide" id="buy">
+            <a href="https://www.amazon.com/d/PS4-Games/Far-Cry-4-PlayStation/B00KAED850?th=1">
+                <h3 class="title">Amazon -></h3>
+            </a>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
