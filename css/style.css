@@ -143,6 +143,33 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 5px;
 }
 
+.title {
+  color: #fff;
+  text-align: center;
+}
+
+.circle {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.circle span {
+  color: #aaadbc;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  top: 24px;
+}
+
+ol li {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
 .button {
   color: #fff;
   font-size: 16px;
